@@ -1,0 +1,59 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  }
+  
+  .weather-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .weather-card {
+    text-align: center;
+  }
+  
+  .city-name {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .temp-container {
+    margin: 20px 0;
+  }
+  
+  .temperature {
+    font-size: 4rem;
+    color: #ff4c4c;
+    font-weight: bold;
+  }
+  
+  .temp-range {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .temp-min, .temp-max {
+    font-size: 1.2rem;
+    margin: 0 10px;
+  }
+  
+  .update-btn {
+    padding: 10px 20px;
+  }  
